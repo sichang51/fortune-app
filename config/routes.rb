@@ -12,5 +12,5 @@ Rails.application.routes.draw do
 
   get "/bottles", controller: "my_examples", action: "bottles_method"
 
-  get "/terminal", controller: "my_examples", action: terminal_method"
+  # get "/terminal", controller: "my_examples", action: terminal_method"
 end

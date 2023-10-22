@@ -34,8 +34,7 @@ class MyExamplesController < ApplicationController
     end
     render json: { lyrics: lyrics }
   end
-  
-  def terminal_method
 
+  # def terminal_method
 
 end
